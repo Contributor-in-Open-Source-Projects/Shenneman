@@ -32,7 +32,7 @@ namespace Shenneman.Api
             services.AddSwaggerGen(Options =>
             {
                 Options.SwaggerDoc(
-                    name:"v1",
+                    name: "v1",
                    info: apiInfo);
             });
         }
