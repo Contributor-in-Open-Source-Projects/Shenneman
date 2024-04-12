@@ -396,3 +396,4 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+/Shenneman/Shenneman.Api/appsettings.Development.json
