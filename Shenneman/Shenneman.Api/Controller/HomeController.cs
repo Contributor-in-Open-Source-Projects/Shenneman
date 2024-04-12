@@ -14,7 +14,7 @@ namespace Shenneman.Api.Controller
     {
         [HttpGet]
         public ActionResult<string> Get() =>
-            Ok("Hello World");  
-      
+            Ok("Hello World");
+
     }
 }
