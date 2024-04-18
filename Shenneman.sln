@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shenneman.Api", "Shenneman.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shenneman.Tests.Unit", "Shenneman.Tests.Unit\Shenneman.Tests.Unit.csproj", "{A7040F6E-BAA7-4BDD-A204-08A0F9E30373}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shenneman.Build.Api", "Shenneman.Build.Api\Shenneman.Build.Api.csproj", "{4E285590-B9F6-46AF-A775-14931BE2EDDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A7040F6E-BAA7-4BDD-A204-08A0F9E30373}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7040F6E-BAA7-4BDD-A204-08A0F9E30373}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7040F6E-BAA7-4BDD-A204-08A0F9E30373}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E285590-B9F6-46AF-A775-14931BE2EDDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E285590-B9F6-46AF-A775-14931BE2EDDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E285590-B9F6-46AF-A775-14931BE2EDDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E285590-B9F6-46AF-A775-14931BE2EDDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
