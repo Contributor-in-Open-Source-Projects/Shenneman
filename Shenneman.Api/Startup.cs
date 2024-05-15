@@ -9,6 +9,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using Shenneman.Api.Broker.Storages;
 
 namespace Shenneman.Api
 {
@@ -29,6 +30,9 @@ namespace Shenneman.Api
             };
 
             services.AddControllers();
+            services.AddDbContext<StorageBroker>();
+            services.AddTransient<IStorageBroker, StorageBroker>();
+
             services.AddSwaggerGen(Options =>
             {
                 Options.SwaggerDoc(
