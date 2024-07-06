@@ -5,7 +5,7 @@
 
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
-
+                //  code rub 
 namespace Shenneman.Api
 {
     public class Program
